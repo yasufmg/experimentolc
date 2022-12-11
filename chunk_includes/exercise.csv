@@ -1,5 +1,5 @@
-ITEM,CONTEXT,SENTENCE,ANSWER1,ANSWER2
-3001,"Miguel estava no supermercado fazendo as compras do mês. Ao checar a lista de compras, lembrou-se de adicionar suco de laranja no carrinho, tendo em vista que...",Isabel parece que o suco bebeu todo.,Isabel bebeu todo o suco,Isabel tomou refrigerante
-3002,"Rita e sua cachorrinha Kira estavam brincando no quintal quando avistaram um passarinho caído no chão. Assustada, Rita chegou mais perto para socorrê-lo, mas o passarinho saiu voando e...",Kira se assustou.,O passarinho voou,Kira correu
-3003,"Audrey estava saindo de casa quando começou a chover muito. Temendo o trânsito, ela voltou para o apartamento. Quando a chuva passou, ela decidiu sair e percebeu que...",O poste derrubou uma árvore,O poste deixou feridos,A árvore foi derrubada
-3004,"João trabalhava na mesma loja há 10 anos, e era evidente o descaso da empresa com o refeitório dos funcionários. Ele se juntou aos seus colegas e depois de muitas reclamações...",João obteve a reforma do refeitório,João comprou a reforma do refeitório,João insistiu pela reforma
+ITEM,SENTENCE,ANSWER1,ANSWER2
+3001,Isabel parece que o suco bebeu todo.,Isabel bebeu todo o suco,Isabel tomou refrigerante
+3002,Kira se assustou.,O passarinho voou,Kira correu
+3003,O poste derrubou uma árvore,O poste deixou feridos,A árvore foi derrubada
+3004,João obteve a reforma do refeitório,João comprou a reforma do refeitório,João insistiu pela reforma

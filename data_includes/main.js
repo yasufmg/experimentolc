@@ -157,7 +157,7 @@ newTrial("participants",
 
 // Instrucoes
 newTrial("instructions",
-    newText("instructions_greeting", "<h2>INSTRUÇÕES</h2><p>Neste experimento, você deverá avaliar algumas frases do português de acordo com uma escala de 0 a 100, em que 0 significa TOTALMENTE ARTIFICIAL e 100 significa TOTALMENTE NATURAL.</p><p>Ao iniciar, você verá uma frase. Leia-a com atenção e atribua uma nota a ela movimentando a escala de 0 a 100.</p><p>É importante que você clique e arraste até a nota desejada.</p><p>Clique em CONTINUAR para enviar sua nota e responda a pergunta. Por fim, clique em PRÓXIMO para continuar avaliando as próximas frases.</p><p>Observe que não nos interessa saber se a frase é correta ou não, mas apenas se ela lhe parece natural ou artificial segundo o uso cotidiano que todos os falantes fazem da língua.</p><p>Após entender essas instruções, clique em INICIAR para começar.</p>")
+    newText("instructions_greeting", "<h2>INSTRUÇÕES</h2><p>Neste experimento, você deverá avaliar algumas frases do português de acordo com uma escala de 0 a 100, em que 0 significa TOTALMENTE ARTIFICIAL e 100 significa TOTALMENTE NATURAL.</p><p>Ao iniciar, você verá uma frase. Leia-a com atenção e atribua uma nota a ela movimentando a escala de 0 a 100.</p><p>É importante que você clique e arraste até a nota desejada.</p><p>Clique em CONTINUAR para enviar sua nota. Responda a pergunta. Por fim, clique em PRÓXIMO para continuar avaliando as próximas frases.</p><p>Observe que não nos interessa saber se a frase é correta ou não, mas apenas se ela lhe parece natural ou artificial segundo o uso cotidiano que todos os falantes fazem da língua.</p><p>Após entender essas instruções, clique em INICIAR para começar.</p>")
         .left()
         .cssContainer({"margin":"1em"})
         .print()
@@ -218,17 +218,18 @@ Template("exercise.csv", row =>
             .print()
         ,
         newScale("answers", row.ANSWER1, row.ANSWER2)
-        .button()
+        .radio()
         .vertical()
-        .center()
+        .labelsPosition("right")
         .cssContainer({"margin-top":"1em", "margin-bottom":"1em", "font-size":"1.2em", "line-height": "5em"})
         .print()
         .wait()
         ,
-        // Wait briefly to display which option was selected
-        newTimer("wait", 800)
-            .start()
-            .wait()
+        newButton("nextbutton", "Próximo")
+        .cssContainer({"margin":"1em"})
+        .center()
+        .print()
+        .wait()
 ))
 
 // Comecar experimento
@@ -285,15 +286,20 @@ Template("experiment.csv", row =>
 	newVar("CORRECT").global().set(false)
 	,
         newScale("answers", row.ANSWER1, row.ANSWER2)
-        .button()
+        .radio()
         .vertical()
-        .center()
+        .labelsPosition("right")
         .cssContainer({"margin-top":"1em", "margin-bottom":"1em", "font-size":"1.2em", "line-height": "5em"})
         .print()
         .wait()
 	.test.selected(row.INTENDEDMEANING).success( getVar("CORRECT").set(true) )
-        .log()
+        .log("last")
         ,
+        newButton("go_to_exercise", "Próximo")
+        .cssContainer({"margin":"1em"})
+        .center()
+        .print()
+        .wait()
 
         clear()
         ,

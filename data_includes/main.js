@@ -300,7 +300,7 @@ Template("experiment.csv", row =>
         .center()
         .print()
         .wait()
-
+	,
         clear()
         ,
         // Wait briefly to display which option was selected

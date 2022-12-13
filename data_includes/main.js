@@ -157,7 +157,7 @@ newTrial("participants",
 
 // Instrucoes
 newTrial("instructions",
-    newText("instructions_greeting", "<h2>INSTRUÇÕES</h2><p>Neste experimento, você deverá avaliar algumas frases do português de acordo com uma escala de 0 a 100, em que 0 significa TOTALMENTE ARTIFICIAL e 100 significa TOTALMENTE NATURAL.</p><p>Ao iniciar, você verá uma frase. Leia-a com atenção e atribua uma nota a ela movimentando a escala de 0 a 100.</p><p>É importante que você clique e arraste até a nota desejada.</p><p>Clique em CONTINUAR para enviar sua nota. Responda a pergunta. Por fim, clique em PRÓXIMO para continuar avaliando as próximas frases.</p><p>Observe que não nos interessa saber se a frase é correta ou não, mas apenas se ela lhe parece natural ou artificial segundo o uso cotidiano que todos os falantes fazem da língua.</p><p>Após entender essas instruções, clique em INICIAR para começar.</p>")
+    newText("instructions_greeting", "<h2>INSTRUÇÕES</h2><p>Neste experimento, você deverá dar notas para algumas frases de acordo com o uso que fazemos da língua no dia a dia.</p><p>Ao iniciar, leia a frase que aparece na tela e atribua a ela uma nota, movimentando o cursor na escala de 0 (totalmente não aceitável) a 100 (totalmente aceitável) até a nota desejada.</p><p>Então clique em CONTINUAR e responda a uma breve pergunta que aparece depois sobre a frase, sem pensar demais na resposta. Apenas siga o sentido que tiver vindo primeiro na sua cabeça.</p><p>Por fim, clique em PRÓXIMO para continuar avaliando as próximas frases.</p><p>Se você entendeu essas instruções, clique em INICIAR para começar.</p>")
         .left()
         .cssContainer({"margin":"1em"})
         .print()
@@ -180,8 +180,8 @@ Template("exercise.csv", row =>
             ,
 
     newScale("slider", 100)
-        .before( newText("left", "<div class='fancy'> TOTALMENTE ARTIFICIAL (0) </div>") )
-        .after( newText("right", "<div class='fancy'> (100) TOTALMENTE NATURAL </div>") )
+        .before( newText("left", "<div class='fancy'> TOTALMENTE NÃO ACEITÁVEL (0) </div>") )
+        .after( newText("right", "<div class='fancy'> (100) TOTALMENTE ACEITÁVEL </div>") )
         .labelsPosition("top")
         .cssContainer({"margin":"1em"})
         .slider()
@@ -246,8 +246,8 @@ Template("experiment.csv", row =>
             ,
 	     
     newScale("slider", 100)
-        .before( newText("left", "<div class='fancy'> TOTALMENTE ARTIFICIAL (0) </div>") )
-        .after( newText("right", "<div class='fancy'> (100) TOTALMENTE NATURAL </div>") )
+        .before( newText("left", "<div class='fancy'> TOTALMENTE NÃO ACEITÁVEL (0) </div>") )
+        .after( newText("right", "<div class='fancy'> (100) TOTALMENTE ACEITÁVEL </div>") )
         .labelsPosition("top")
         .cssContainer({"margin":"1em"})
         .slider()

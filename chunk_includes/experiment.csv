@@ -1,16 +1,16 @@
-ITEM,SENTENCE,ANSWER1,ANSWER2,INTENDEDMEANING,TYPE
-101,Marta decidiu almoçar os alunos.,Marta deu almoço aos alunos,Marta comeu os alunos no almoço,Marta deu almoço aos alunos,item
-102,Lucas saiu para batizar o sobrinho.,Lucas oficiou o batismo do sobrinho,Lucas foi ao batismo do sobrinho,Lucas foi ao batismo do sobrinho,item
-103,Rodrigo viajou para crismar o primo.,Rodrigo compareceu à crisma do primo,Rodrigo ministrou a crisma do primo,Rodrigo compareceu à crisma do primo,item
-104,Alana viajou para casar a amiga.,Alana oficiou o casamento da amiga,Alana compareceu ao casamento da amiga,Alana compareceu ao casamento da amiga,item
-105,Ricardo saiu para noivar a sobrinha.,Ricardo foi ao noivado da sobrinha,Ricardo foi o celebrante do noivado da sobrinha,Ricardo foi ao noivado da sobrinha,item
-106,Renato resolveu consultar a filha.,Renato pediu conselho à filha,Renato levou a filha ao médico,Renato levou a filha ao médico,item
-107,Juliana conseguiu aprovar o filho.,Juliana teve o filho aprovado em uma prova,Juliana aceitou o filho,Juliana teve o filho aprovado em uma prova,item
-108,Marina veio para formar a afilhada.,Marina educou a afilhada,Marina foi à formatura da afilhada,Marina foi à formatura da afilhada,item
-109,Rui aproveitou para passear as crianças.,Rui levou as crianças para um passeio,Rui deslocou as crianças de lugar,Rui levou as crianças para um passeio,item
-110,Vicente conseguiu estudar os filhos.,Vicente examinou o comportamento dos filhos,Vicente proveu educação aos filhos,Vicente proveu educação aos filhos,item
-111,Brenda chegou para divorciar a mãe.,Brenda presenciou o divórcio da mãe,Brenda realizou o divórcio da mãe,Brenda presenciou o divórcio da mãe,item
-112,Sara viajou para enterrar o amigo.,Sara soterrou o corpo do amigo,Sara compareceu ao enterro do amigo,Sara compareceu ao enterro do amigo,item
+ITEM,VERB,SENTENCE,ANSWER1,ANSWER2,INTENDEDMEANING,TYPE
+101,almoçar,Marta decidiu almoçar os alunos.,Marta deu almoço aos alunos,Marta comeu os alunos no almoço,Marta deu almoço aos alunos,item
+102,batizar,Lucas saiu para batizar o sobrinho.,Lucas oficiou o batismo do sobrinho,Lucas foi ao batismo do sobrinho,Lucas foi ao batismo do sobrinho,item
+103,crismar,Rodrigo viajou para crismar o primo.,Rodrigo compareceu à crisma do primo,Rodrigo ministrou a crisma do primo,Rodrigo compareceu à crisma do primo,item
+104,casar,Alana viajou para casar a amiga.,Alana oficiou o casamento da amiga,Alana compareceu ao casamento da amiga,Alana compareceu ao casamento da amiga,item
+105,noivar,Ricardo saiu para noivar a sobrinha.,Ricardo foi ao noivado da sobrinha,Ricardo foi o celebrante do noivado da sobrinha,Ricardo foi ao noivado da sobrinha,item
+106,consultar,Renato resolveu consultar a filha.,Renato pediu conselho à filha,Renato levou a filha ao médico,Renato levou a filha ao médico,item
+107,aprovar,Juliana conseguiu aprovar o filho.,Juliana teve o filho aprovado em uma prova,Juliana aceitou o filho,Juliana teve o filho aprovado em uma prova,item
+108,formar,Marina veio para formar a afilhada.,Marina educou a afilhada,Marina foi à formatura da afilhada,Marina foi à formatura da afilhada,item
+109,passear,Rui aproveitou para passear as crianças.,Rui levou as crianças para um passeio,Rui deslocou as crianças de lugar,Rui levou as crianças para um passeio,item
+110,estudar,Vicente conseguiu estudar os filhos.,Vicente examinou o comportamento dos filhos,Vicente proveu educação aos filhos,Vicente proveu educação aos filhos,item
+111,divorciar,Brenda chegou para divorciar a mãe.,Brenda presenciou o divórcio da mãe,Brenda realizou o divórcio da mãe,Brenda presenciou o divórcio da mãe,item
+112,enterrar,Sara viajou para enterrar o amigo.,Sara soterrou o corpo do amigo,Sara compareceu ao enterro do amigo,Sara compareceu ao enterro do amigo,item
 
 501,A enfermeira pediu para Zeca colocou gesso um.,A enfermeira colocou o gesso,Zeca colocou o gesso
 502,Policial o viu assaltante roubando casa a.,O policial roubou a casa,O assaltante roubou a casa,null,filler

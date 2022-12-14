@@ -212,7 +212,7 @@ Template("exercise.csv", row =>
         , 
         clear()
         ,
-        newText("comprehension", "Qual opção descreve melhor a interpretação dessa sentença (mesmo que essa interpretação pareça estranha)?")
+        newText("comprehension", "Sem pensar muito, qual foi a primeira interpretação que você fez dessa sentença?")
             .cssContainer({"margin-top":"1em", "margin-bottom":"1em", "font-size":"1.55em"})
             .center()
             .print()
@@ -278,7 +278,7 @@ Template("experiment.csv", row =>
         , 
     clear()
     ,
-    newText("comprehension", "Qual opção descreve melhor a interpretação dessa sentença (mesmo que essa interpretação pareça estranha)?")
+    newText("comprehension", "Sem pensar muito, qual foi a primeira interpretação que você fez dessa sentença?")
             .cssContainer({"margin-top":"1em", "margin-bottom":"1em", "font-size":"1.55em"})
             .center()
             .print()

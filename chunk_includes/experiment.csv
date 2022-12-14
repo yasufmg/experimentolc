@@ -12,34 +12,34 @@ ITEM,VERB,SENTENCE,ANSWER1,ANSWER2,INTENDEDMEANING,TYPE
 111,divorciar,Brenda chegou para divorciar a mãe.,Brenda presenciou o divórcio da mãe,Brenda realizou o divórcio da mãe,Brenda presenciou o divórcio da mãe,item
 112,enterrar,Sara viajou para enterrar o amigo.,Sara soterrou o corpo do amigo,Sara compareceu ao enterro do amigo,Sara compareceu ao enterro do amigo,item
 
-501,A enfermeira pediu para Zeca colocou gesso um.,A enfermeira colocou o gesso,Zeca colocou o gesso
-502,Policial o viu assaltante roubando casa a.,O policial roubou a casa,O assaltante roubou a casa,null,filler
-503,Ana podia a vizinha compraria um tênis.,A vizinha comprou um tênis,Ana comprou um tênis
-504,Maria deseja a livraria traduziu livro o.,A livraria traduziu o livro,Maria traduziu o livro,null,filler
-505,O mecânico acabou que van a estragou.,O mecânico estragou a van,A van estragou sozinha,null,filler
-506,Eva parece que o pai carregou a roupa.,O pai carregou a roupa,Eva carregou a roupa,null,filler
-507,As crianças querem a mãe quebrar o abajur.,A mãe quebrou o abajur,As crianças quebraram o abajur,null,filler
-508,Lucas acabou que o ajudante colhe as frutas.,O ajudante colheu as frutas,Lucas colheu as frutas com o ajudante,null,filler
-509,O motorista parece que Carlos trocou a bateria.,O motorista trocou a bateria,Carlos trocou a bateria,null,filler
-510,Janice tentou Fernanda acender a luz.,Janice incitou Fernanda a acender a luz,Fernanda acendeu a luz,null,filler
+501,NA,A enfermeira pediu para Zeca colocou gesso um.,A enfermeira colocou o gesso,Zeca colocou o gesso,null,filler
+502,NA,Policial o viu assaltante roubando casa a.,O policial roubou a casa,O assaltante roubou a casa,null,filler
+503,NA,Ana podia a vizinha compraria um tênis.,A vizinha comprou um tênis,Ana comprou um tênis,null,filler
+504,NA,Maria deseja a livraria traduziu livro o.,A livraria traduziu o livro,Maria traduziu o livro,null,filler
+505,NA,O mecânico acabou que van a estragou.,O mecânico estragou a van,A van estragou sozinha,null,filler
+506,NA,Eva parece que o pai carregou a roupa.,O pai carregou a roupa,Eva carregou a roupa,null,filler
+507,NA,As crianças querem a mãe quebrar o abajur.,A mãe quebrou o abajur,As crianças quebraram o abajur,null,filler
+508,NA,Lucas acabou que o ajudante colhe as frutas.,O ajudante colheu as frutas,Lucas colheu as frutas com o ajudante,null,filler
+509,NA,O motorista parece que Carlos trocou a bateria.,O motorista trocou a bateria,Carlos trocou a bateria,null,filler
+510,NA,Janice tentou Fernanda acender a luz.,Janice incitou Fernanda a acender a luz,Fernanda acendeu a luz,null,filler
 
-601,A avó pediu para a confeitaria assar um bolo.,A confeitaria assou um bolo,A avó assou um bolo,null,filler
-602,O empreteiro tentou comprar o material.,O empreiteiro comprou o material,O empreteiro não comprou o material,null,filler
-603,O chef queria criar um novo prato.,O chef criou um novo prato,O chef não criou um novo prato,null,filler
-604,A ligação foi atendida por Lisa.,Lisa atendeu a ligação,Lisa não atendeu a ligação,null,filler
-605,O pedido foi aceitado por Marisa.,Marisa aceitou o pedido,Marisa queria aceitar o pedido,null,filler
-606,Um carro foi comprado pelo casal.,Eles compraram um novo carro,Eles compraram um carro usado,null,filler
-607,Carla sabia o endereço.,Carla conhecia o endereço,Carla descobriu o endereço,null,filler
-608,A dona da casa era uma amiga sua.,A casa era da amiga de José,José não conhecia a dona da casa,null,filler
-609,O atendente fechou a porta.,A porta foi trancada pelo atendente,A porta não foi trancada pelo atendente,null,filler
-610,Flor queria aceitar um pedaço de bolo.,Flor queria comer um pedaço de bolo,Flor queria levar um pedaço de bolo,null,filler
-611,Ricardo conseguiu ganhar o ingresso.,Ricardo ganhou o ingresso no sorteio,Ricardo conseguiu o ingresso depois do sorteio,null,filler
-612,O pedido era contido pela carta.,O pedido era a própria carta,O pedido estava dentro do envelope da carta,null,filler
-613,O esforço foi valido pelo passeio.,O passeio valeu o esforço,O esforço foi pequeno diante do passeio,null,filler
-614,O presente foi ganhado por Carolina.,Carolina recebeu um presente,Carolina disputou um presente,null,filler
-615,A boa reputação foi adquirida por Tom.,Tom recebeu uma boa reputação,Tom conquistou uma boa reputação,null,filler
-616,A canção adormeceu Bruno.,Bruno dormiu ouvindo a canção,Bruno dormiu por causa da canção,null,filler
-617,Roberto lamentou um fato.,Roberto ficou chateado com o ocorrido,Roberto ficou assustado com o ocorrido,null,filler
-618,Paulo gritou que ela gostava de morangos.,Paulo falou alto sobre a filha,Paulo foi rude sobre a filha,null,filler
-619,Manuela sabe um livro.,Manuela decorou um livro,Manuela conhece um livro,null,filler
-620,Eduardo compreendeu uma briga.,Eduardo entendeu a briga,Eduardo discordou da briga,null,filler
+601,NA,A avó pediu para a confeitaria assar um bolo.,A confeitaria assou um bolo,A avó assou um bolo,null,filler
+602,NA,O empreteiro tentou comprar o material.,O empreiteiro comprou o material,O empreteiro não comprou o material,null,filler
+603,NA,O chef queria criar um novo prato.,O chef criou um novo prato,O chef não criou um novo prato,null,filler
+604,NA,A ligação foi atendida por Lisa.,Lisa atendeu a ligação,Lisa não atendeu a ligação,null,filler
+605,NA,O pedido foi aceitado por Marisa.,Marisa aceitou o pedido,Marisa queria aceitar o pedido,null,filler
+606,NA,Um carro foi comprado pelo casal.,Eles compraram um novo carro,Eles compraram um carro usado,null,filler
+607,NA,Carla sabia o endereço.,Carla conhecia o endereço,Carla descobriu o endereço,null,filler
+608,NA,A dona da casa era uma amiga sua.,A casa era da amiga de José,José não conhecia a dona da casa,null,filler
+609,NA,O atendente fechou a porta.,A porta foi trancada pelo atendente,A porta não foi trancada pelo atendente,null,filler
+610,NA,Flor queria aceitar um pedaço de bolo.,Flor queria comer um pedaço de bolo,Flor queria levar um pedaço de bolo,null,filler
+611,NA,Ricardo conseguiu ganhar o ingresso.,Ricardo ganhou o ingresso no sorteio,Ricardo conseguiu o ingresso depois do sorteio,null,filler
+612,NA,O pedido era contido pela carta.,O pedido era a própria carta,O pedido estava dentro do envelope da carta,null,filler
+613,NA,O esforço foi valido pelo passeio.,O passeio valeu o esforço,O esforço foi pequeno diante do passeio,null,filler
+614,NA,O presente foi ganhado por Carolina.,Carolina recebeu um presente,Carolina disputou um presente,null,filler
+615,NA,A boa reputação foi adquirida por Tom.,Tom recebeu uma boa reputação,Tom conquistou uma boa reputação,null,filler
+616,NA,A canção adormeceu Bruno.,Bruno dormiu ouvindo a canção,Bruno dormiu por causa da canção,null,filler
+617,NA,Roberto lamentou um fato.,Roberto ficou chateado com o ocorrido,Roberto ficou assustado com o ocorrido,null,filler
+618,NA,Paulo gritou que ela gostava de morangos.,Paulo falou alto sobre a filha,Paulo foi rude sobre a filha,null,filler
+619,NA,Manuela sabe um livro.,Manuela decorou um livro,Manuela conhece um livro,null,filler
+620,NA,Eduardo compreendeu uma briga.,Eduardo entendeu a briga,Eduardo discordou da briga,null,filler
